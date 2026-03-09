@@ -19,7 +19,7 @@ CREATE TABLE Paginas(
 	act_file BINARY
 );
 
-CREATE TABLE Banco_Respuestas(
+CREATE TABLE Banco_Preguntas(
 	id_pregunta INT IDENTITY(1,1) CONSTRAINT PK_banco_pregunta PRIMARY KEY,
 	pregunta VARCHAR(300) CONSTRAINT NN_pregunta NOT NULL,
 	respuesta CHAR(1) CONSTRAINT NN_respuesta NOT NULL
@@ -32,7 +32,7 @@ CREATE TABLE Preguntas(
 	respuesta_input CHAR(1) CONSTRAINT NN_respuesta NOT NULL,
 );
 
-CREATE TABLE Actividades(
+CREATE TABLE Banco_Actividades(
 	id_actividad INT IDENTITY(1,1) CONSTRAINT PK_id_actividad PRIMARY KEY,
 	tipo_actividad VARCHAR(16) CONSTRAINT NN_tipo_actividad NOT NULL
 );
