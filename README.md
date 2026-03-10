@@ -2,15 +2,13 @@
 
 Research -> .flaskenv
 
-Docker was installed on both Linux and Windows without problem, on windows the desktop application was used. 
-
-Git is obviously installed.
+Docker was installed on both Linux and Windows without problem, on Windows the desktop application was used, but the CLI works fine. 
 
 Dependencies for pgadmin4 to use a PostgreSQL GUI were installed on Linux, but application is cross-platform.
 
 Python requirements are listed.
 
-Bootstrap .zip file was installed.
+Bootstrap .zip file was downloaded from webpage.
 
 __________________________________________
 
