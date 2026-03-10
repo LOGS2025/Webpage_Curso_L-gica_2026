@@ -1,5 +1,26 @@
 # Webpage_Curso_L-gica_2026
 
+Research -> .flaskenv
 
-.flaskenv
+Docker was installed on both Linux and Windows without problem, on windows the desktop application was used. 
+
+Git is obviously installed.
+
+Dependencies for pgadmin4 to use a PostgreSQL GUI were installed on Linux, but application is cross-platform.
+
+Python requirements are listed.
+
+Bootstrap .zip file was installed.
+
+__________________________________________
+
+To use Docker, on Linux :
+    Start the socket service
+    Start the service
+    Sudo docker info, docker needs root permissions to run.
+
+__________________________________________
+
+A test dir was created.
+
 
